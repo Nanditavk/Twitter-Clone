@@ -1,0 +1,23 @@
+.Center-feed{
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background-color);
+    /* min-width: fit-content; */
+    overflow-y: scroll;
+    height: 99% !important;
+    /* max-height: auto; */
+    
+
+}
+.Center-feed::-webkit-scrollbar{
+    display: none;
+}
+
+.feed-header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--twitter-background-color);
+    padding: 15px 20px;
+
+}
